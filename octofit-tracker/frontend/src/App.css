@@ -1,0 +1,132 @@
+
+body {
+  background: linear-gradient(135deg, #e0f7fa 0%, #f8bbd0 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+  background: transparent;
+}
+
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #4F8A8B 0%, #08D9D6 100%);
+  box-shadow: 0 2px 8px rgba(79,138,139,0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  margin-right: 8px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #f8bbd0 !important;
+}
+
+/* Headings */
+h1, h2, h3, .display-4, .display-6 {
+  color: #4F8A8B;
+  font-weight: 700;
+}
+
+/* Tables */
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(79,138,139,0.08);
+}
+.table th {
+  background: #4F8A8B !important;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e0f7fa;
+}
+
+/* Buttons */
+.btn, .btn-primary {
+  background: #4F8A8B;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #08D9D6;
+  color: #22223b;
+}
+
+/* Links */
+a, .App-link {
+  color: #08D9D6;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #4F8A8B;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(79,138,139,0.10);
+  background: #fff;
+}
+.card-title {
+  color: #4F8A8B;
+}
+
+/* Modals */
+.modal-content {
+  border-radius: 10px;
+}
+.modal-header {
+  background: #4F8A8B;
+  color: #fff;
+}
+
+/* Forms */
+.form-control:focus {
+  border-color: #08D9D6;
+  box-shadow: 0 0 0 0.2rem rgba(8,217,214,0.25);
+}
+
+/* Favicon and logo tweaks */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+/* Remove old App-header styles */
+
+
+/* Remove old App-link styles */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
